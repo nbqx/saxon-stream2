@@ -1,0 +1,30 @@
+{
+  "name": "saxon-stream2",
+  "version": "0.0.1",
+  "description": "simple saxon transform stream wrapper using through2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/saxon-stream2"
+  },
+  "homepage": "https://github.com/nbqx/saxon-stream2",
+  "keywords": [
+    "java",
+    "saxon",
+    "xslt",
+    "stream"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^0.4.1",
+    "temporary": "0.0.8"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.3.0"
+  }
+}
